@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script src="js/marquee.js"></script>
+</head>
+<body>
+	<div id="words">
+		<!-- Making sense of art after the datalogical turn means coming to terms with a fundamental paradox. As increasing facets of human exchange and measurement become conjoined through ubiquitous and inexpensive storage methods, the privileges once granted to aesthetic discourse wither away. The critical apparatus that was inextricably linked with modernity—an institutionally authorized clergy trained to interpret art—has been overwhelmed. And not just flooded with a “new media” format, but more recently networked in such a way that has tested the fundamental assumptions of institutions, publics, and knowledge. -->
+	</div>
+	<script>
+	function init() { rtl_marquee.start(); }
+	var rtl_marquee_Text = 'Making sense of art after the datalogical turn means coming to terms with a fundamental paradox. As increasing facets of human exchange and measurement become conjoined through ubiquitous and inexpensive storage methods, the privileges once granted to aesthetic discourse wither away. The critical apparatus that was inextricably linked with modernity—an institutionally authorized clergy trained to interpret art—has been overwhelmed. And not just flooded with a “new media” format, but more recently networked in such a way that has tested the fundamental assumptions of institutions, publics, and knowledge.';
+	var rtl_marquee_Direction = 'left';
+	var rtl_marquee_Contents='<span style="font-family:Helvetica;font-size:40pt;margin-top:150px;white-space:nowrap;">' + rtl_marquee_Text + '</span>';
+	rtl_marquee = new xbMarquee('rtl_marquee', '19px', '90%', 6, 100, rtl_marquee_Direction, 'scroll', rtl_marquee_Contents);
+	window.setTimeout( init, 200);
+-->
+</script>
+</body>
+</html>

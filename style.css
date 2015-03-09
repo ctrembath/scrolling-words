@@ -1,0 +1,16 @@
+div#rtl_marqueecontainer {
+	margin-top: 50px;
+	width: 100%;
+	
+}
+
+
+span {
+	opacity: .5;
+	width: 100%;
+}
+
+span:hover{
+	color: red;
+
+};
